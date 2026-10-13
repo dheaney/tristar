@@ -1,0 +1,19 @@
+# Dataset paths for each category. Edit these to point at your local copy of the dataset.
+# normal_dir, abnormal_dir and normal_test_dir are relative to root.
+
+bracket_black:
+  root: /home/dj/tristar-experiment/dataset/bracket_black
+  normal_dir: train/good
+  abnormal_dir:
+    - test/scratches
+    - test/hole
+  normal_test_dir: test/good
+
+metal_plate:
+  root: /home/dj/tristar-experiment/dataset/metal_plate
+  normal_dir: train/good
+  abnormal_dir:
+    - test/major_rust
+    - test/scratches
+    - test/total_rust
+  normal_test_dir: test/good

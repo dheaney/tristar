@@ -1,0 +1,12 @@
+{
+  "layers": [
+    "layer2"
+  ],
+  "coreset_sampling_ratio": 0.1,
+  "num_neighbors": 5,
+  "backbone": "wide_resnet50_2",
+  "metrics": {
+    "image_AUROC": 1.0,
+    "image_F1Score": 1.0
+  }
+}
